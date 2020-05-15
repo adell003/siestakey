@@ -1,0 +1,230 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.newnav{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    margin-top: 3%;
+}
+
+.newnavitems{
+    font-family: "Futura PT", sans-serif;
+    font-size: 40px;
+}
+
+.newnavitems:hover{
+    color: saddlebrown;
+}
+
+.newnavitems:link{
+    color: white;
+    text-decoration: none;
+}
+
+.newnavitems:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.navhome{
+    padding: 100px 0 0 520px;
+}
+
+.naveat{
+    padding: 100px;
+}
+
+.navexplore{
+}
+
+.navstay{
+    padding: 100px;
+}
+
+
+/*.nav{*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    z-index: 10;*/
+/*}*/
+
+/*.menu{*/
+/*    text-decoration: none;*/
+/*    font-family: "Futura PT", sans-serif;*/
+/*    font-size: 30px;*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    z-index: 30;*/
+/*    display: none;*/
+/*    background-color: green;*/
+/*}*/
+
+/*.menuwords{*/
+/*    text-decoration: none;*/
+/*    font-family: "Futura PT", sans-serif;*/
+/*    font-size: 30px;*/
+/*    position: absolute;*/
+/*    z-index: 30;*/
+/*}*/
+
+/*.button{*/
+/*    position: absolute;*/
+/*    padding: 4px;*/
+/*    top: 3%;*/
+/*    left: 3%;*/
+/*    filter: invert(100%);*/
+/*}*/
+
+/*.button:hover{*/
+/*    transform: rotate(90deg);*/
+/*}*/
+
+.headphoto{
+    background :url("../photos/mainphoto.jpg") no-repeat center fixed;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    z-index: 20;
+}
+
+.heading{
+    font-size: 200px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Futura PT", sans-serif;
+    width: 1800px;
+    height: 500px;
+    text-align: center;
+    z-index: 10;
+}
+
+.eat{
+    position: absolute;
+    top: 100%;
+    z-index: 10;
+    width: 100%;
+}
+
+.explore{
+    position: absolute;
+    top: 184%;
+    z-index: 10;
+    width: 100%;
+    left: 24.5%;
+}
+
+.stay{
+    position: absolute;
+    top: 268.25%;
+    z-index: 10;
+    width: 300%;
+
+}
+
+.eattext{
+    position: absolute;
+    font-family: Termina, serif;
+    font-size: 48px ;
+    z-index: 20;
+    background-color: #E5E8EF;
+    margin: 350px 0 0 600px;
+    text-align: center;
+    padding: 30px 133px 30px 30px;
+    text-decoration: none;
+}
+
+.exploretext{
+    position: absolute;
+    font-family: Termina, serif;
+    font-size: 50px ;
+    z-index: 20;
+    margin: 1025px 0 0 0;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    background-color: #E9D6E5;
+    text-decoration: none;
+}
+
+.staytext{
+    position: absolute;
+    font-family: Termina, serif;
+    font-size: 48px ;
+    z-index: 20;
+    background-color: #F0EADC;
+    margin: 1800px 0 0 600px;
+    text-align: center;
+    padding: 30px 93px 30px 40px;
+    text-decoration: none;
+}
+
+.extralinks:link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.extralinks:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.aboutphoto{
+    background :url("../photos/siestakey6.jpg") no-repeat center fixed;
+    width: 100%;
+    height: 50%;
+    background-size: contain;
+    z-index: 20;
+    top: 2992px;
+    position: absolute;
+}
+
+.aboutheading{
+    font-size: 100px;
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Futura PT", sans-serif;
+    width: 1800px;
+    height: 500px;
+    text-align: center;
+    z-index: 10;
+    line-height: 10px;
+}
+
+.aboutimage{
+    position: absolute;
+    top: 3500px;
+    left: 150px;
+}
+
+.abouttext{
+    float: right;
+    width: 800px;
+    height: 300px;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+    top: 3650px;
+    font-family: "Futura PT", sans-serif;
+    color: black;
+    font-size: 30px;
+    margin: 0 0 400px 0;
+}
+
+.two{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
